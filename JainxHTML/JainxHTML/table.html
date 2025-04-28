@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="1" cellpadding="10px" style="border: 5px solid red; border-collapse:collapse ; background-color: antiquewhite;background-image: linear-gradient(90deg,blue,red,yellow);">
+        <thead>
+            <tr>
+                <th rowspan="2">USN</th>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Stream</th>
+                <th rowspan="2">Email</th>
+                <th colspan="2">Address</th>
+                <th rowspan="2">Images</th>
+                <th rowspan="2">Resume</th>
+            </tr>
+            <tr>
+                <th>permanent</th>
+                <th>temporary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>054</td>
+                <td>Vinayak</td>
+                <td>CSE</td>
+                <td>patil@gmail.com</td>
+                <td>Bengaluru</td>
+                <td>Karnataka</td>
+                <td><img src='templates/vinayak.jpg' alt="vinayak pic" width="50px" height="50px"></td>
+                <td><a href='templates/Resume_V.pdf' target="_blank">Resume</a></td>
+            </tr>
+            <tr>
+                <td>053</td>
+                <td>Prabhatha</td>
+                <td>CSE</td>
+                <td>patil@gmail.com</td>
+                <td rowspan="2">Badami</td>
+                <td>Karnataka</td>
+                <td><img src='templates/vinayak.jpg' alt="vinayak pic" width="50px" height="50px"></td>
+                <td><a href='templates/resume.docx' target="_blank">Resume</a></td>
+            </tr>
+            <tr>
+                <td>033</td>
+                <td>Prajwal</td>
+                <td>CSE</td>
+                <td>patil@gmail.com</td>
+                <td>Karnataka</td>
+                <td><img src='templates/vinayak.jpg' alt="vinayak pic" width="50px" height="50px"></td>
+                <td><a href='templates/resume.docx' target="_blank">Resume</a></td>
+            </tr>
+        </tbody>
+        <caption style="caption-side: bottom;">Student Details Table</caption>
+    </table>
+</body>
+</html>
