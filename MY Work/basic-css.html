@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Css Style</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* internal css */
+        h2{
+            color: green;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    /* inline css */
+     <h1 style="color: red;background-color: black;">Hello World</h1>
+     <h2> Welcome to microdegree</h2>
+     <p>Sure! Here's a simple paragraph:
+
+        The sun was setting behind the mountains, casting a warm golden light across the valley. Birds flew in the sky, their songs echoing through the air. It was a peaceful evening, and the quiet beauty of nature made everything feel calm and serene.</p>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic of css Selectors</title>
+    <style>
+        /* using tags */
+        h2{
+            color: red;
+        }
+        /* using id */
+        #welcome{
+            background-color: gray;
+        }
+        /* using class */
+        .heading{
+            color: pink;
+        }
+        /* multipal selectors */
+        #welcome ,#about{
+            border: 1px solid black;
+        }
+        /* Nested selector */
+        #welcome p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <h2 class="heading"> Welcome</h2>
+        <p>Sure! Here's a simple paragraph:
+
+            The sun was setting behind the mountains, casting a warm golden light across the valley. Birds flew in the sky, their songs echoing through the air. It was a peaceful evening, and the quiet beauty of nature made everything feel calm and serene.</p>
+    </div>
+    <div id="about">
+        <h2>About</h2>
+        <p>Sure! Here's a simple paragraph:
+
+            The sun was setting behind the mountains, casting a warm golden light across the valley. Birds flew in the sky, their songs echoing through the air. It was a peaceful evening, and the quiet beauty of nature made everything feel calm and serene.</p>
+
+    </div>
+    
+</body>
+</html>

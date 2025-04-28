@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign In</title>
+    <link rel="icon" href="/templet/img.jpeg">
+    <style>
+        .p{
+            color: brown;
+            border-top-left-radius: 50%;
+            text-align:center;
+            font-family: cursive;
+            font-size: larger;
+        }
+        .c{
+            color: rgb(46, 223, 70);
+            background-color: blue;
+            font-size:medium;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+        
+    </style>
+</head>
+<body style="background-image: url('/templet/img.jpeg');">
+    <div class="p">
+        <form action="" method="get">
+            <!-- <aside style="width: fit-content; border-top-left-radius: 50%;"> -->
+            <!-- <fieldset style="text-align: center;"> -->
+                <legend > Registration Form </legend><br>
+                <label for="fname"> First Name <sup style="color: red;font-size: small;">*</sup>:</label><input type="text" name="fname" id="fname" placeholder="Enter the first Name" required><br><br>
+                <label for="mname"> Middle Name: </label><input type="text" name="mname" id="mname"placeholder="Enter the Secound Name"><br><br>
+                <label for="lname"> Last Name<sup style="color: red;font-size: small;">*</sup>: </label><input type="text" name="lname" id="lname" placeholder="Enter the Last Name" required><br><br>
+                <label for="mno"> Mobile Number<sup style="color: red;font-size: small;">*</sup>: </label><input type="number" name="Mobilenumber" id="mno" placeholder="Enter the number" required><br><br>
+                <label for="gmail"> Email<sup style="color: red;font-size: small;">*</sup>: </label><input type="email" name="Email" id="gmail" placeholder="Enter the gmail" required><br><br>
+                <label for="password"> Create Password<sup style="color: red;font-size: small;">*</sup>: </label><input type="password" name="password" id="password" placeholder="Enter the new password" required><br><br>
+                <label for="cp"> Conform Password<sup style="color: red;font-size: small;">*</sup>: </label><input type="password" name="password" id="password" placeholder="Enter the password once again" required><br><br>
+                <lable for="age"> Age<sup style="color: red;font-size: small;">*</sup>: </label><input type="number" id="age" placeholder="Enter the age" requireds><br><br>
+                <label for="date">Date of Birth<sup style="color: red;font-size: small;">*</sup>:</label><input type="date" name="date of birth" id="date" ><br><br>
+                <!-- <label for="edu"> Qualification: </label>
+                <select name=" education" id="edu"></select>
+                    <optgroup>
+                        <option value="CSE"> CSE </option>
+                        <option value="ECE"> </option>
+                    </optgroup> -->
+                <label for="gender"> Gender<sup style="color: red;font-size: small;">*</sup>: </label>
+                <input type="radio" name="gender" id="gender" value="Male"><label for="gender"> Male </label>
+                <input type="radio" name="gender" id="gender" value="Female"><label for="gender"> Female </label>
+                <input type="radio" name="gender" id="gender" value="other"><label for="gender"> Other </label><br><br>
+
+                    <button type="submit"  class="c""> SUBMIT </button><br>
+                    <a href="First.html"  >Login </a>
+            <!-- </fieldset> -->
+            </aside>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body style="background-color: rgba(71, 65, 131, 0.377); font-size: xx-large;">
+    
+    <form action="" method="get">
+        <!-- <legend style="text-align: center; color: white; font-size: xx-large;">Application Form</legend> -->
+         <h1 style="text-align: center; color: white;">Application Form </h1>
+         <tr>
+            <label for="f_name" style="position:absolute; top: 150px; left: 300px;">First Name: </label><input type="text" id="f_name" name="First_name" required style="position:absolute; top: 160px; left: 490px; height: 20px; width: 15%;">
+            <label for="l_name" style="position:absolute; top: 150px; right: 500px;">Last Name: </label><input type="text" id="l_name" name="Last_name" required style="position:absolute; top: 160px; right: 240px; height: 20px; width: 15%;">
+         </tr><br><br>
+         <tr><label for="birth" style="position:absolute; top: 200px; left: 300px;"> Date of Birth: </label><input type="date" name="d_birth" id="birth" required style="position:absolute; top: 200px; left: 490px; height: 30px; width: 15%;">
+            <label for="age" style="position:absolute; top: 200px; right: 500px;">Age: </label><input type="number" id="age" name="age" required style="position:absolute; top: 200px; right: 240px; height: 30px; width: 15%;">
+        </tr><br><br>
+        <tr>
+            <label for="gender" style="position:absolute; top: 250px; left: 300px;">Gender: </label>
+            <select name="gender" id="gender" style="position:absolute; top: 250px; left: 490px; height: 30px; width: 16%;">
+                <option value=""></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Other</option>
+            </select>
+            <label for="email" style="position:absolute; top: 250px; right: 500px;">Email: </label><input type="email" id="email" name="email" required style="position:absolute; top: 250px; right: 240px; height: 30px; width: 15%;">
+        </tr><br><br>
+        <tr><label for="a" style="position:absolute; top: 300px; left: 300px;">Position Available: </label> 
+            <input type="radio" name="a" id="a" style="position:absolute; top: 310px; left: 550px;"><p style="position:absolute; top: 270px; left: 570px;">Junior Developer</p>
+            <input type="radio" name="a" id="a"  style="position:absolute; top: 313px; left: 800px;"><p style="position:absolute; top: 270px; left: 820px;">Mid-level Developer</p>
+            <input type="radio" name="a" id="a"  style="position:absolute; top: 313px; left: 1100px;"><p style="position:absolute; top: 270px; left: 1125px;">Senior Developer</p>
+        </tr><br><br>
+        <tr>
+            <label for="b" style="position:absolute; top: 350px; left: 300px;">Programming Languages: </label>
+            <input type="checkbox" id="b" name="java" style="position:absolute; top: 363px; left: 630px;"><p style="position:absolute; top: 320px; left: 650px;">Java</p>
+            <input type="checkbox" id="b" name="JavaScript" style="position:absolute; top: 363px; left: 710px;"><p style="position:absolute; top: 320px; left: 730px;">JavaScript</p>
+            <input type="checkbox" id="b" name="Python" style="position:absolute; top: 363px; left: 870px;"><p style="position:absolute; top: 320px; left: 890px;">Python</p>
+        </tr><br><br>
+        <tr>
+            <label for="password" style="position:absolute; top: 400px; left: 300px;">Password:</label> <input type="password" id="password" name="Password"style="position:absolute; top: 400px; left: 490px; height: 30px; width: 15%;">
+            <label for="co_pass" style="position:absolute; top: 400px; right: 500px;">Confirm Password:</label><input type="password" id="co_pass" name="Confirm_password" style="position:absolute; top: 400px; right: 240px; height: 30px; width: 15%;">
+        </tr><br><br>
+        <!-- <div style="text-align: center;"> -->
+        <tr>
+            <button type="submit" style="background-color: red; width: 20%; height: 50px; font-size: x-large; position: absolute; top: 450px; left: 30%;">Submit</button>
+            <button type="reset" style="background-color: red; width: 20%; height: 50px; font-size: x-large; position: absolute; top: 450px; left: 55%;">Reset</button>
+        </tr>
+    <!-- </div> -->
+    </form>
+   
+</body>
+</html>
